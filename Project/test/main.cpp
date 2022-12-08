@@ -3,7 +3,6 @@
 const int X=1366;
 const int Y=768;
 int main(){
-    
 	initgraph(X,Y);
     setorigin(X>>1,Y>>1);
     setaspectratio(1, -1);
