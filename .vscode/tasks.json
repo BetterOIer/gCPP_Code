@@ -11,7 +11,8 @@
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-Wall",
-                "-std=c++14"
+                "-std=c++14",
+                "-leasyx"
             ],
             "options": {
                 "cwd": "${fileDirname}"
