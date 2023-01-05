@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe 生成活动文件",
-            "command": "D:\\Program Files (x86)\\TDM-GCC\\bin\\g++.exe",
+            "command": "D:\\Program Files (x86)\\TDM-GCC-64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -12,7 +12,8 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-Wall",
                 "-std=c++14",
-                "-leasyx"
+                "-leasyx",
+                "-lws2_32"
             ],
             "options": {
                 "cwd": "${fileDirname}"
