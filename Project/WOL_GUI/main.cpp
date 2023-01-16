@@ -74,7 +74,7 @@ int main(){
     now.lfQuality=PROOF_QUALITY;
     now.lfHeight = 36;	
     RECT r1 = {0, 0, 195, 100}, r2={200,0,380,100};
-    _tcscpy(now.lfFaceName, _T("Î¢ÈíÑÅºÚ"));
+    _tcscpy(now.lfFaceName, _T("¿¬Ìå"));
     
     settextstyle(&now);
     settextcolor(WHITE);
