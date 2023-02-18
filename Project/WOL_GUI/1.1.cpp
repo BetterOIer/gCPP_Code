@@ -22,7 +22,6 @@ int main()
         return 0;
     }
     while(inFile.read((char *)&s, sizeof(s))) { //一直读到文件结束
-        int readedBytes = inFile.gcount(); //看刚才读了多少字节
         cout << s.szName << " " << s.age << endl;   
     }
     inFile.close();
