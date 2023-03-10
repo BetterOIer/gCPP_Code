@@ -61,7 +61,7 @@ void init(){
         new_to_use=true;
         return;
     }
-    DATADB.read((char *)&mach, sizeof(mach));
+    DATADB.read((char*)&mach, sizeof(mach));
     DATADB.close();
     idx=mach.size();
 }
